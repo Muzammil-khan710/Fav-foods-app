@@ -35,7 +35,7 @@ export default function App() {
     onClick={() => foodClickHandler(food)}
     style={{
       cursor: "pointer",
-      background: "#E5E7EB",
+      background: "#EDAB76",,
       borderRadius: "0.5rem",
       padding: "0.5rem  1rem",
       border: "1px solid black",
@@ -56,6 +56,7 @@ export default function App() {
       padding: "1rem",
       border: "1px solid #D1D5DB",
       width: "70%",
+      background: "#F1BD94",
       margin: "1rem 0rem",
       borderRadius: "0.5rem"   
       }}>
