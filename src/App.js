@@ -10,12 +10,14 @@ var foodILove = {
 
   Chinese : [
     {name : "Chilly Garlic Noodles", spicy : "🌶🌶🌶"},
+     {name: "Hot and Sour Soup", spicy: "🌶🌶" },
     {name : "Veg Manchurian Gravy", spicy : "🌶"}
   ],
 
   Italian : [
     {name : "Red Sauce Pasta", spicy : "🌶🌶🌶"},
-    {name : "Pizza", spicy : "🌶"}
+    {name : "Pizza", spicy : "🌶"},
+    { name: "Lasagna", spicy: "🌶" }
   ]
 };
 
