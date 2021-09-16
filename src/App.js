@@ -56,7 +56,7 @@ export default function App() {
       style={{ 
       listStyle: "none",
       padding: "1rem",
-      border: "1px solid #D1D5DB",
+      border: "1px solid black",
       width: "70%",
       background: "#F1BD94",
       margin: "1rem 0rem",
@@ -65,6 +65,7 @@ export default function App() {
       {" "}
       <div className="food-name"> {food.name} </div>
       <div className="food-spice"> {food.spicy} </div>
+      <div className="food-description"> {food.description} </div>
     </li>
   ))}
 </ul>
