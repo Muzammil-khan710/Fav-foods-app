@@ -3,21 +3,21 @@ import "./styles.css";
 
 var foodILove = {
   Indian : [
-    {name : "Kadai Paneer", spicy : "🌶🌶"},
-    {name : "Dal Makhani", spicy : "🌶"},
-    {name : "Punjabi Chhole", spicy :"🌶" }
+    {name : "Kadai Paneer", spicy : "🌶🌶", description : "Spicy paneer made with onion and indian sauces"},
+    {name : "Dal Makhani", spicy : "🌶", description : "Dal made with tadka and butter"},
+    {name : "Punjabi Chhole", spicy :"🌶",  description : "Chatpate chhole made with a Punjabi taste"}
   ],
 
   Chinese : [
-    {name : "Chilly Garlic Noodles", spicy : "🌶🌶🌶"},
-     {name: "Hot and Sour Soup", spicy: "🌶🌶" },
-    {name : "Veg Manchurian Gravy", spicy : "🌶"}
+    {name : "Chilly Garlic Noodles", spicy : "🌶🌶🌶", description : "Spicy Noodles made with veggies"},
+    {name: "Hot and Sour Soup", spicy: "🌶🌶" , description : "Hot and tasty soup "},
+    {name : "Veg Manchurian Gravy", spicy : "🌶" , description : "Mouth watery manchurian"}
   ],
 
   Italian : [
-    {name : "Red Sauce Pasta", spicy : "🌶🌶🌶"},
-    {name : "Pizza", spicy : "🌶"},
-    { name: "Lasagna", spicy: "🌶" }
+    {name : "Red Sauce Pasta", spicy : "🌶🌶🌶", description : "Spicy and delicious pasta"},
+    {name : "Pizza", spicy : "🌶", description : "Pizza filled with cheese."},
+    { name: "Lasagna", spicy: "🌶"  , description: "veg lasagna loaded with veggies"}
   ]
 };
 
