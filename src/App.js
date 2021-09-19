@@ -3,21 +3,21 @@ import "./styles.css";
 
 var foodILove = {
   Indian : [
-    {name : "Kadai Paneer", spicy : "🌶🌶", description : "Spicy paneer made with onion and indian sauces"},
-    {name : "Dal Makhani", spicy : "🌶", description : "Dal made with tadka and butter"},
-    {name : "Punjabi Chhole", spicy :"🌶",  description : "Chatpate chhole made with a Punjabi taste"}
+    {name : "Kadai Paneer", spicy : "🌶🌶", rating : "4.9/5" , description : "Spicy paneer made with onion and indian sauces"},
+    {name : "Dal Makhani", spicy : "🌶",  rating : "4/5" , description : "Dal made with tadka and butter"},
+    {name : "Punjabi Chhole", spicy :"🌶", rating : "4.1/5" ,  description : "Chatpate chhole made with a Punjabi taste"}
   ],
 
   Chinese : [
-    {name : "Chilly Garlic Noodles", spicy : "🌶🌶🌶", description : "Spicy Noodles made with veggies"},
-    {name: "Hot and Sour Soup", spicy: "🌶🌶" , description : "Hot and tasty soup "},
-    {name : "Veg Manchurian Gravy", spicy : "🌶" , description : "Mouth watery manchurian"}
+    {name : "Chilly Garlic Noodles", spicy : "🌶🌶🌶", rating : "4.6/5" , description : "Spicy Noodles made with veggies"},
+    {name: "Hot and Sour Soup", spicy: "🌶🌶" , rating : "4.3/5" , description : "Hot and tasty soup "},
+    {name : "Veg Manchurian Gravy", spicy : "🌶" , rating : "3.9/5" , description : "Mouth watery manchurian"}
   ],
 
   Italian : [
-    {name : "Red Sauce Pasta", spicy : "🌶🌶🌶", description : "Spicy and delicious pasta"},
-    {name : "Pizza", spicy : "🌶", description : "Pizza filled with cheese."},
-    { name: "Lasagna", spicy: "🌶"  , description: "veg lasagna loaded with veggies"}
+    {name : "Red Sauce Pasta", spicy : "🌶🌶🌶", rating : "4/5" , description : "Spicy and delicious pasta"},
+    {name : "Pizza", spicy : "🌶", rating : "5/5" , description : "Pizza filled with cheese."},
+    { name: "Lasagna", spicy: "🌶"  , rating : "4.6/5" , description: "veg lasagna loaded with veggies"}
   ]
 };
 
@@ -63,8 +63,8 @@ export default function App() {
       borderRadius: "0.5rem"   
       }}>
       {" "}
-      <div className="food-name"> {food.name} </div>
-      <div className="food-spice"> {food.spicy} </div>
+      <div className="food-name"> {food.name} {food.spicy} </div>
+      <div className="food-rating"> {food.rating} </div>
       <div className="food-description"> {food.description} </div>
     </li>
   ))}
